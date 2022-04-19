@@ -4,7 +4,7 @@ import com.bignerdranch.android.shoppinglist.domain.ShopItem
 import com.bignerdranch.android.shoppinglist.domain.ShopListRepository
 import java.lang.RuntimeException
 
-object ShopListRepositoryImpl : com.bignerdranch.android.shoppinglist.domain.ShopListRepository {
+object ShopListRepositoryImpl : ShopListRepository {
 
     private val shopList = mutableListOf<ShopItem>()
     private var autoIncrementID = 0
