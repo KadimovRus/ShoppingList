@@ -1,8 +1,10 @@
 package com.bignerdranch.android.shoppinglist.domain
 
+import androidx.lifecycle.LiveData
+
 interface ShopListRepository {
 
-    fun shopList() : List<ShopItem>
+    fun shopList() : LiveData<List<ShopItem>>
 
     fun editShopItem(item: ShopItem)
 

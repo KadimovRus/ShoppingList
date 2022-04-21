@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">ShoppingList</string>
     <string name="message">Мой первый проект</string>
+    <string name="add_new_item">Add new shop item</string>
+    <string name="default_name">Салфетки</string>
+    <string name="default_count">1</string>
 </resources>
